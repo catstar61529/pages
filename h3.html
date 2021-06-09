@@ -1,0 +1,76 @@
+<html lang="en">
+
+<head>
+  <title>NCYU_DEDM_學術推廣</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="./style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+    <a class="navbar-brand" href="#"><img src="https://raw.githubusercontent.com/catstar61529/pictures/gh-pages/logo.png" width= 200px; alt="NCYU的logo" class="">嘉大數位系</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav ml-auto" >
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">系所介紹</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="h2.html">課程師資</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="h3.html">學術推廣</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="h4.html">聯絡資訊</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <br>
+  
+  <section id="s3">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-12">
+          <h1>學術推廣</h1>
+          <hr>
+        </div>
+        <div class="col-sm-6">
+       <a href="https://www.ncyu.edu.tw/etech/content.aspx?site_content_sn=60712" target="_blank"><h3>2021第三屆數位廣告營<span class="badge badge-danger">NEW</span></h3>
+          <img  src="https://github.com/catstar61529/pictures/blob/gh-pages/%E6%83%B3%E5%91%8A%E6%95%B8%E4%BD%A0.jpg?raw=true" alt="2021第三屆數位廣告營" class="img-thumbnail"></a>   
+        </div>
+        <div class="col-sm-6"><a href="https://www.ncyu.edu.tw/etech/content.aspx?site_content_sn=57531" target="_blank"><h3>2021華山論簡<span class="badge badge-danger">NEW</span></h3>
+          <img  src="https://github.com/catstar61529/pictures/blob/gh-pages/%E8%8F%AF%E5%B1%B1%E8%AB%96%E7%B0%A1.png?raw=true" alt="2021第三屆數位廣告營" class="img-thumbnail"></a>  </div>
+        
+      </div>
+    </div>
+  </section>
+  
+  <button type="button" id="BackTop" class="toTop-arrow"></button>
+<script>
+$(function(){
+	$('#BackTop').click(function(){ 
+		$('html,body').animate({scrollTop:0}, 333);
+	});
+	$(window).scroll(function() {
+		if ( $(this).scrollTop() > 300 ){
+			$('#BackTop').fadeIn(222);
+		} else {
+			$('#BackTop').stop().fadeOut(222);
+		}
+	}).scroll();
+});
+</script>
+</body>
+
+</html>
